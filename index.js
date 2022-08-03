@@ -25,6 +25,48 @@ const nestedMuppet = {
   nestedPartner: 'Miss Piggy'
 };
 
+let moo = "cow";
+let neigh = "horse";
+let baa = "sheep";
+let oink = "pig";
+let cluck = "chicken";
+
+
+
+
+let bessie = moo;
+let dolly = baa;
+let babe = oink;
+let little = cluck;
+
+let blackAndWhite = bessie;
+let black = dolly;
+let pink = babe;
+
+let [red, , , , , , ] = colors;
+let [,orange , , , , , ] = colors;
+let [, ,yellow , , , , ] = colors;
+let [, , ,green , , , ] = colors;
+let [, , , ,blue , , ] = colors;
+let [, , , , ,indigo , ] = colors;
+const [, , , , , ,violet ] = colors;
+
+const [r, , , , , , ] = colors;
+let [,o , , , , , ] = colors;
+let [, ,y , , , , ] = colors;
+let [, , ,g , , , ] = colors;
+let [, , , ,b , , ] = colors;
+let [, , , , ,i , ] = colors;
+const [, , , , , ,v ] = colors;
+
+let [, , , , ,indg , ] = colors;
+
+const {muppetName, color, song, job, partner} = muppet;
+
+const {song2, song4} = nestedMuppet.album.theMuppetMovie;
+
+const {nestedJob, nestedPartner} = nestedMuppet
+
 // Strings
 
 // 1. Use destructuring to assign appropriate variables based on the sounds animals make.
